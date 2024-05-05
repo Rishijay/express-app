@@ -1,0 +1,21 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "Basic sample/boiler plate node application with express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "prettier": "@rishijay/prettier-config",
+  "author": "Rishijay Shrivastava",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@rishijay/prettier-config": "^1.0.3",
+    "nodemon": "^3.1.0"
+  }
+}
